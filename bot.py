@@ -8,7 +8,7 @@ import io
 import asyncio
 from PIL import Image, ImageDraw, ImageSequence, ImageFont
 api_instance = giphy_client.DefaultApi()
-api_key = '6jwI857CInH0npYAYlChjrRMArYNgSvQ'
+api_key = 'YOUR GIPHY KEY HERE'
 client = commands.Bot(command_prefix='!')
 apiresponse = api_instance.gifs_random_get(api_key,fmt='json')
 pipebomb = False
@@ -56,4 +56,4 @@ async def pb(ctx):
         pipebomb = False
         await ctx.send("Pipebombing ended!")
     client.loop.create_task(pipebombfunc(ctx))
-client.run('ODA2OTYyODUwNDg3NTk5MTM0.YBxEuA.ehtPHBt3teb4C-i_rvfiMMM0n3w')
+client.run('YOUR DISCORD BOT KEY HERE')
