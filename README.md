@@ -5,6 +5,10 @@ Made this for a friend. Why did he want it? Don't ask me. What is the point of t
 
 *- also need your own discord bot key*
 
+*dont forget libraries: 
+- [Discord.py](https://www.google.com)
+- [Giphy API](https://developers.giphy.com/)
+
 How to use:
 1. Insert giphy key and discordpy key in code
 2. Add bot to discord server and do !pb in any channel
